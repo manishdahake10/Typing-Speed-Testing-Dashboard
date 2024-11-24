@@ -10,7 +10,7 @@ Typing Speed Testing Dashboard is a simple, interactive web application designed
 - **Simple UI**: A clean, easy-to-use single-page interface with a modern design for a smooth user experience.
 
 ## Demo
-[Click here to view the live demo](#) _(Link to live version if available)_
+[Click here to view the live demo](https://typspeedtest.netlify.app/)
 
 ## Technologies Used
 - **Frontend**:
