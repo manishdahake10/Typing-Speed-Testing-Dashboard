@@ -47,6 +47,10 @@ After completing the typing test, the application will show the following inform
 - **Accuracy**: 98%
 - **Time Taken**: 1 minute 15 seconds
 
+### Get real experience just click on the image👇
+<a href="https://typspeedtest.netlify.app/">![Capture](https://github.com/user-attachments/assets/57255b83-8676-456c-aead-219c0f52576e)</a>
+
+
 ### Real-Time Results
 Your typing speed and accuracy will update dynamically as you type.
 
