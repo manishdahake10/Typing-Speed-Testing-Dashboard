@@ -1,27 +1,71 @@
 # Typing Speed Testing Dashboard
 
 ## Overview
-Typing Speed Testing Dashboard is a simple, interactive web application designed to help users measure and track their typing speed. The dashboard provides a typing test that calculates words per minute (WPM) and accuracy. This single-page web application is built with **HTML**, **CSS**, and **JavaScript**.
+This is a **Typing Speed Test** application built using **JavaScript**, **HTML**, and **CSS**. It allows users to test their typing speed and accuracy in real-time. The application provides a clean, responsive, and easy-to-use interface to track typing performance.
 
 ## Features
-- **Typing Speed Test**: A challenge that measures how fast you type (in words per minute) and how accurate your typing is.
-- **Real-time Feedback**: See real-time updates as you type, including a visual indicator of your typing progress.
-- **Results Summary**: After completing the test, get detailed results showing WPM, accuracy percentage, and time taken.
-- **Simple UI**: A clean, easy-to-use single-page interface with a modern design for a smooth user experience.
-
-## Demo
-[Click here to view the live demo](https://typspeedtest.netlify.app/)
+- Real-time typing speed test (WPM - Words per minute).
+- Displays accuracy percentage based on the typed text.
+- Customizable typing challenge text.
+- Timer to measure the typing duration.
+- Visual feedback for correct and incorrect characters.
+- Results are shown at the end of the test with a breakdown of speed and accuracy.
+- Simple and responsive design.
 
 ## Technologies Used
-- **Frontend**:
-  - HTML5
-  - CSS3 (Responsive design with Flexbox/Grid)
-  - JavaScript (for functionality and interactive features)
+- **JavaScript**: For handling typing logic, calculating speed and accuracy, and managing the timer.
+- **HTML**: For structuring the webpage and creating the input fields.
+- **CSS**: For styling the webpage and ensuring responsiveness.
+- **Web APIs**: Uses native browser functionality for timing and input handling.
 
-### Prerequisites
-No special tools are needed! You only need a modern web browser to run this application.
+## Requirements
+- A modern web browser (Google Chrome, Mozilla Firefox, Safari, etc.).
 
-### Getting Started
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/manishdahake10/typing-speed-dashboard.git
+## Installation
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/manishdahake10/typing-speed-test.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd typing-speed-test
+    ```
+
+3. Open the `index.html` file in your preferred web browser to start the typing test.
+
+## Usage
+1. Open the `index.html` file in your browser to launch the application.
+2. Read the text that appears on the screen.
+3. Start typing the text in the provided input field as fast and accurately as you can.
+4. The application will track your typing speed (WPM) and accuracy in real-time.
+5. Once you finish typing the text, your results will be displayed.
+
+### Example Output
+After completing the typing test, the application will show the following information:
+- **Typing Speed**: 65 WPM (Words per minute)
+- **Accuracy**: 98%
+- **Time Taken**: 1 minute 15 seconds
+
+### Real-Time Results
+Your typing speed and accuracy will update dynamically as you type.
+
+## Code Structure
+The project consists of the following files:
+- `index.html`: The main HTML file containing the structure of the typing test.
+- `style.css`: The CSS file used for styling the user interface and ensuring it’s responsive.
+- `script.js`: The JavaScript file that handles the logic for the typing test, including speed and accuracy calculations, as well as the timer.
+- `README.md`: This documentation file explaining the project.
+
+## Contribution
+Feel free to fork this repository and contribute by opening issues or submitting pull requests. Contributions are welcome in the following areas:
+- Suggesting new features or improvements.
+- Fixing bugs or improving existing code.
+- Enhancing the user interface or adding additional functionality.
+
+## Author
+**Manish Rajendra Dahake**  
+GitHub: manishdahake10](https://github.com/manishdahake10)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
